@@ -1,4 +1,10 @@
 # Version Control Infrastructure
+# Terraform CI Validation
+ 
+![Terraform CI](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY/actions/workflows/terraform.yml/badge.svg?branch=feature%2Fterraform-ci-validation)
+ 
+Automated Terraform formatting and validation using GitHub Actions.
+ 
  
 ## Project Goal
 Track Terraform infrastructure updates using Git and GitHub.
