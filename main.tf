@@ -4,8 +4,10 @@ terraform {
 
 resource "terraform_data" "project" {
   input = {
-    project = "Version Control Infrastructure"
-    purpose = "Track Terraform updates using Git"
+    project     = "Version Control Infrastructure"
+    purpose     = "Track Terraform updates using Git"
+    environment = "Development"
+    owner       = "Devops Team"
   }
 }
 
